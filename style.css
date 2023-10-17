@@ -1,0 +1,50 @@
+body {
+    background: #020126;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+main {
+    color:#F205CB;
+    ;
+}
+
+footer {
+    background: #0B0340;
+    border: 5px solid #1D08A6;
+    border-radius: 20px;
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 35px;
+ 
+}
+
+#social-links a {
+    color: #F20574;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   
+    transition: background 0.2s;
+    border-radius: 50%;
+  }
+  
+#social-links a:hover {
+    background: #020126;;
+  }
+
+/* #F20574; - rosa neon 
+#F205CB; - rosa claro
+#1D08A6; - azul 
+#0B0340; - azulk escuro 
+#020126; - background */
