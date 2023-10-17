@@ -4,14 +4,33 @@ body {
 }
 
 header {
-   background:#F205CB;
+    background: #0B0340;
+    color: white;
    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
+   
+}
+
+ul{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    font-weight: 700;
 
 }
 
+ul p{
+    margin: 15px 30px;
+    font-size: large;
+}
+
+ul p:hover {
+    color: #F20574;
+    cursor: pointer;
+
+}
 #profile {
     color:#F205CB;
     margin: 50px;
@@ -72,7 +91,7 @@ footer {
   }
   
 #social-links a:hover {
-    background: #020126;;
+    background: #020126;
   }
 
 /* #F20574; - rosa neon 
