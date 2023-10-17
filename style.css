@@ -4,14 +4,18 @@ body {
 }
 
 header {
-    background: #F205CB;
-    border: 5px solid  #F20574;
-    border-radius: 20px;
+   background:#F205CB;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+
 }
 
 #profile {
     color:#F205CB;
     margin: 50px;
+    margin-top: 150px;
     display: flex;
     width: 1500px;
 
@@ -43,15 +47,17 @@ header {
 
 footer {
     background: #0B0340;
-    border: 5px solid #1D08A6;
-    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 #social-links {
     display: flex;
     justify-content: center;
-    padding: 10px;
-    font-size: 35px;
+    padding: 5px;
+    font-size: 30px;
  
 }
 
@@ -60,7 +66,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px;
+    padding: 10px;
     transition: background 0.2s;
     border-radius: 50%;
   }
