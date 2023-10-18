@@ -41,6 +41,7 @@ ul p:hover {
 }
 #profile .text {
     color:white;
+    width: 50%;
 }
 
 #profile  h1 {
@@ -50,7 +51,7 @@ ul p:hover {
 }
 
 #profile img {
-    margin: 0 300px;
+   width: 30%;
 }
 
 #speciality {
