@@ -4,13 +4,12 @@ body {
 }
 
 header {
-    background: #0B0340;
+    background: url(./assets/backgound.png)  no-repeat top center / cover;
     color: white;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-   
 }
 
 ul{
@@ -30,8 +29,8 @@ ul p{
 ul p:hover {
     color: #F20574;
     cursor: pointer;
-
 }
+
 #profile {
     color:#F205CB;
     margin: 50px;
@@ -42,19 +41,16 @@ ul p:hover {
 }
 #profile .text {
     color:white;
-    
 }
 
 #profile  h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #profile img {
     margin: 0 300px;
-
 }
 
 #speciality {
@@ -67,16 +63,14 @@ ul p:hover {
 
 footer {
     background: #0B0340;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    margin: 0px;
+
 }
 
 #social-links {
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 16px;
     font-size: 30px;
  
 }
@@ -86,7 +80,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 16px;
     transition: background 0.2s;
     border-radius: 50%;
   }
