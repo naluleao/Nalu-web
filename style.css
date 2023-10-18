@@ -22,13 +22,22 @@ ul{
 }
 
 ul p{
-    margin: 15px ;
+    margin: auto;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #010013;
+    border: 5px solid #0B0340;
+    border-radius: 10px;
     font-size: large;
 }
 
 ul p:hover {
-    color: #F20574;
+    color:#F205CB;
     cursor: pointer;
+    border: 3px solid  #F205CB;
 }
 
 #profile {
@@ -36,7 +45,9 @@ ul p:hover {
     margin: 50px;
     margin-top: 150px;
     display: flex;
-    width: 1500px;
+    justify-content: space-evenly;
+    width: 100%;
+
 
 }
 #profile .text {
@@ -65,6 +76,7 @@ ul p:hover {
 footer {
     background: #0B0340;
     margin: 0px;
+    width: 100%;
 
 }
 
