@@ -10,15 +10,13 @@ header {
    top: 0;
    left: 0;
    width: 100%;
-   
 }
 
 ul{
     display: flex;
     margin: 5px;
-    justify-content: center;
+    justify-content: space-evenly;
     font-weight: 700;
-
 }
 
 ul p{
