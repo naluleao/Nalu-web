@@ -6,10 +6,11 @@ body {
 header {
     background: #0B0340;
     color: white;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
 }
 
 ul{
@@ -17,10 +18,12 @@ ul{
     margin: 5px;
     justify-content: space-evenly;
     font-weight: 700;
+    width: 100%;
+    padding: 0px;
 }
 
 ul p{
-    margin: 15px 2%;
+    margin: 15px ;
     font-size: large;
 }
 
