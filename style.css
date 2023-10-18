@@ -1,5 +1,5 @@
 body {
-    background: #020126;
+    background: #010013;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -22,7 +22,7 @@ ul{
 }
 
 ul p{
-    margin: 15px 30px;
+    margin: 15px 2%;
     font-size: large;
 }
 
@@ -91,11 +91,11 @@ footer {
   }
   
 #social-links a:hover {
-    background: #020126;
+    background: #010013;
   }
 
 /* #F20574; - rosa neon 
 #F205CB; - rosa claro
 #1D08A6; - azul 
 #0B0340; - azulk escuro 
-#020126; - background */
+#010013; - background */
