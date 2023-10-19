@@ -2,11 +2,11 @@ body {
     background: #010013;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
+    color: white;
 }
 
 header {
     background: url(./assets/backgound.png)  no-repeat top center / cover;
-    color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -64,16 +64,31 @@ ul p:hover {
     color:#F20574;
 }
 
-#profile img {
-   
-}
-
 #speciality {
-    color:#F20574;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
 }
 
-#project {
-    color:white;
+#speciality h2 {
+    color:#F20574;
+    font-family: 'Vollkorn SC', serif;
+}
+
+#speciality p {
+    width: 50%;
+}
+#speciality .icon {
+    margin-top: 50px;
+    color:#F20574;
+    font-size: 40px;
+}
+
+#project h2 {
+    color:#F20574;
+    font-family: 'Vollkorn SC', serif;
 }
 
 footer {
