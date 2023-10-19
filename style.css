@@ -1,6 +1,7 @@
 body {
     background: #010013;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
 header {
@@ -36,14 +37,14 @@ ul p{
 }
 
 ul p:hover {
-    color:#F205CB;
+    color:#F20574;
     cursor: pointer;
-    transition: 0.4s;
-    border: 3px solid  #F205CB;
+    transition: 0.3s;
+    border: 3px solid  #F20574;
 }
 
 #profile {
-    color:#F205CB;
+    color:#F20574;
     margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
@@ -59,8 +60,8 @@ ul p:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
-  
+    font-size: 2em;
+    color:#F20574;
 }
 
 #profile img {
@@ -99,7 +100,8 @@ footer {
   
 #social-links a:hover {
     background: #010013;
-    transition: 0.4s;
+    transition: 0.3s;
+    color:white;
   }
 
 /* #F20574; - rosa neon 
