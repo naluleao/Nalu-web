@@ -82,9 +82,11 @@ ul p:hover {
 }
 
 #speciality .icon {
-    margin-top: 50px;
-    color:#F20574;
-    font-size: 40px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 #project {
@@ -93,7 +95,6 @@ ul p:hover {
     flex-direction: column;
     align-items: center;
     margin: 50px;
-
 }
 
 #project h2 {
