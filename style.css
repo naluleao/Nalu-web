@@ -1,6 +1,6 @@
 body {
     background: #010013;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -29,26 +29,25 @@ ul p{
     justify-content: center;
     align-items: center;
     background: #010013;
-    border: 5px solid #0B0340;
+    border: 3px solid #0B0340;
     border-radius: 10px;
     font-size: large;
+    transition: 0.4s;
 }
 
 ul p:hover {
     color:#F205CB;
     cursor: pointer;
+    transition: 0.4s;
     border: 3px solid  #F205CB;
 }
 
 #profile {
     color:#F205CB;
-    margin: 50px;
     margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-
-
 }
 #profile .text {
     color:white;
@@ -56,13 +55,16 @@ ul p:hover {
 }
 
 #profile  h1 {
+    font-family: 'Vollkorn SC', serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 50px;
+  
 }
 
 #profile img {
-   width: 30%;
+   
 }
 
 #speciality {
@@ -75,9 +77,6 @@ ul p:hover {
 
 footer {
     background: #0B0340;
-    margin: 0px;
-    width: 100%;
-
 }
 
 #social-links {
@@ -85,7 +84,6 @@ footer {
     justify-content: center;
     padding: 16px;
     font-size: 30px;
- 
 }
 
 #social-links a {
@@ -96,10 +94,12 @@ footer {
     padding: 16px;
     transition: background 0.2s;
     border-radius: 50%;
+    transition: 0.4s;
   }
   
 #social-links a:hover {
     background: #010013;
+    transition: 0.4s;
   }
 
 /* #F20574; - rosa neon 
